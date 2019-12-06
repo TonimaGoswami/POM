@@ -1,0 +1,11 @@
+com/linkedin/qa/pages/GroupConversationPage.class
+com/linkedin/qa/pages/SignUpPage.class
+com/linkedin/qa/pages/TasksPage.class
+com/linkedin/qa/pages/LoginPage.class
+com/linkedin/qa/base/TestBase.class
+com/linkedin/qa/pages/JobsPage.class
+com/linkedin/qa/pages/HomePage.class
+com/linkedin/qa/pages/MyNetworkPage.class
+com/linkedin/qa/pages/ComposePage.class
+com/linkedin/qa/utils/TestUtil.class
+com/linkedin/qa/pages/MessagePage.class

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LinkedIn Test automation suite" duration-ms="65595" started-at="2019-09-17T15:42:17Z" finished-at="2019-09-17T15:43:22Z">
+    <groups>
+    </groups>
+    <test name="Different LinkedIn feature test" duration-ms="65595" started-at="2019-09-17T15:42:17Z" finished-at="2019-09-17T15:43:22Z">
+      <class name="com.linkedin.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.linkedin.qa.testcases.HomePageTest@13deb50e]" name="setUp" is-config="true" duration-ms="12431" started-at="2019-09-17T15:42:17Z" finished-at="2019-09-17T15:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnMessagingLinkTest()[pri:0, instance:com.linkedin.qa.testcases.HomePageTest@13deb50e]" name="clickOnMessagingLinkTest" duration-ms="353" started-at="2019-09-17T15:42:29Z" finished-at="2019-09-17T15:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMessagingLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.linkedin.qa.testcases.HomePageTest@13deb50e]" name="tearDown" is-config="true" duration-ms="222" started-at="2019-09-17T15:42:29Z" finished-at="2019-09-17T15:42:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.linkedin.qa.testcases.HomePageTest -->
+      <class name="com.linkedin.qa.testcases.MessagePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.linkedin.qa.testcases.MessagePageTest@239963d8]" name="setUp" is-config="true" duration-ms="10389" started-at="2019-09-17T15:42:30Z" finished-at="2019-09-17T15:42:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CheckGroupConversationIconTest()[pri:0, instance:com.linkedin.qa.testcases.MessagePageTest@239963d8]" name="CheckGroupConversationIconTest" duration-ms="1221" started-at="2019-09-17T15:42:40Z" finished-at="2019-09-17T15:42:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckGroupConversationIconTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.linkedin.qa.testcases.MessagePageTest@239963d8]" name="tearDown" is-config="true" duration-ms="198" started-at="2019-09-17T15:42:41Z" finished-at="2019-09-17T15:42:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.linkedin.qa.testcases.MessagePageTest@239963d8]" name="setUp" is-config="true" duration-ms="8310" started-at="2019-09-17T15:42:41Z" finished-at="2019-09-17T15:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SearchBoxVerificationTest()[pri:0, instance:com.linkedin.qa.testcases.MessagePageTest@239963d8]" name="SearchBoxVerificationTest" duration-ms="1224" started-at="2019-09-17T15:42:50Z" finished-at="2019-09-17T15:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBoxVerificationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.linkedin.qa.testcases.MessagePageTest@239963d8]" name="tearDown" is-config="true" duration-ms="208" started-at="2019-09-17T15:42:51Z" finished-at="2019-09-17T15:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.linkedin.qa.testcases.MessagePageTest@239963d8]" name="setUp" is-config="true" duration-ms="10244" started-at="2019-09-17T15:42:51Z" finished-at="2019-09-17T15:43:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnComposeButtonTest()[pri:0, instance:com.linkedin.qa.testcases.MessagePageTest@239963d8]" name="clickOnComposeButtonTest" duration-ms="1130" started-at="2019-09-17T15:43:01Z" finished-at="2019-09-17T15:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnComposeButtonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.linkedin.qa.testcases.MessagePageTest@239963d8]" name="tearDown" is-config="true" duration-ms="201" started-at="2019-09-17T15:43:02Z" finished-at="2019-09-17T15:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.linkedin.qa.testcases.MessagePageTest@239963d8]" name="setUp" is-config="true" duration-ms="8964" started-at="2019-09-17T15:43:03Z" finished-at="2019-09-17T15:43:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectMessageByNameTest()[pri:0, instance:com.linkedin.qa.testcases.MessagePageTest@239963d8]" name="selectMessageByNameTest" duration-ms="963" started-at="2019-09-17T15:43:12Z" finished-at="2019-09-17T15:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMessageByNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.linkedin.qa.testcases.MessagePageTest@239963d8]" name="tearDown" is-config="true" duration-ms="264" started-at="2019-09-17T15:43:13Z" finished-at="2019-09-17T15:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.linkedin.qa.testcases.MessagePageTest@239963d8]" name="setUp" is-config="true" duration-ms="8068" started-at="2019-09-17T15:43:13Z" finished-at="2019-09-17T15:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMessageTest()[pri:0, instance:com.linkedin.qa.testcases.MessagePageTest@239963d8]" name="verifyMessageTest" duration-ms="947" started-at="2019-09-17T15:43:21Z" finished-at="2019-09-17T15:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMessageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.linkedin.qa.testcases.MessagePageTest@239963d8]" name="tearDown" is-config="true" duration-ms="209" started-at="2019-09-17T15:43:22Z" finished-at="2019-09-17T15:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.linkedin.qa.testcases.MessagePageTest -->
+    </test> <!-- Different LinkedIn feature test -->
+  </suite> <!-- LinkedIn Test automation suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="LinkedIn Test automation suite">
+	<test name="Different LinkedIn feature test">
+		<classes>
+			<class name="com.linkedin.qa.testcases.LoginPageTest" />
+			<class name="com.linkedin.qa.testcases.HomePageTest" />
+			<class name="com.linkedin.qa.testcases.MessagePageTest" />
+			
+
+		</classes>
+
+	</test>
+</suite>

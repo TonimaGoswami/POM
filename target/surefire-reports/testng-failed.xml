@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [LinkedIn Test automation suite]">
+  <test thread-count="5" verbose="0" name="Different LinkedIn feature test(failed)">
+    <classes>
+      <class name="com.linkedin.qa.testcases.MessagePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="SearchBoxVerificationTest"/>
+          <include name="clickOnComposeButtonTest"/>
+        </methods>
+      </class> <!-- com.linkedin.qa.testcases.MessagePageTest -->
+      <class name="com.linkedin.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyCorrectUserImgTest"/>
+        </methods>
+      </class> <!-- com.linkedin.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Different LinkedIn feature test(failed) -->
+</suite> <!-- Failed suite [LinkedIn Test automation suite] -->

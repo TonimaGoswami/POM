@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="161.874" tests="11" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/tanu/eclipse-workspace/LinkedIn/target/test-classes:/Users/tanu/eclipse-workspace/LinkedIn/target/classes:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0-alpha-2/selenium-java-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0-alpha-2/selenium-chrome-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0-alpha-2/selenium-chromium-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-edgehtml-driver/4.0.0-alpha-2/selenium-edgehtml-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0-alpha-2/selenium-edge-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0-alpha-2/selenium-firefox-xpi-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0-alpha-2/selenium-firefox-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0-alpha-2/selenium-ie-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-alpha-2/selenium-remote-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0-alpha-2/selenium-api-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/net/bytebuddy/byte-buddy/1.9.12/byte-buddy-1.9.12.jar:/Users/tanu/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/tanu/.m2/repository/io/opentracing/contrib/opentracing-tracerresolver/0.1.7/opentracing-tracerresolver-0.1.7.jar:/Users/tanu/.m2/repository/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar:/Users/tanu/.m2/repository/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar:/Users/tanu/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/tanu/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/tanu/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/tanu/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/Users/tanu/.m2/repository/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar:/Users/tanu/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/tanu/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar:/Users/tanu/.m2/repository/com/squareup/okhttp3/okhttp/3.14.0/okhttp-3.14.0.jar:/Users/tanu/.m2/repository/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar:/Users/tanu/.m2/repository/io/opentracing/opentracing-util/0.33.0/opentracing-util-0.33.0.jar:/Users/tanu/.m2/repository/io/opentracing/opentracing-noop/0.33.0/opentracing-noop-0.33.0.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0-alpha-2/selenium-opera-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0-alpha-2/selenium-safari-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0-alpha-2/selenium-support-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/tanu/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/tanu/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/tanu/.m2/repository/org/apache/poi/poi/4.0.1/poi-4.0.1.jar:/Users/tanu/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tanu/.m2/repository/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar:/Users/tanu/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/tanu/.m2/repository/org/apache/poi/poi-ooxml/4.0.1/poi-ooxml-4.0.1.jar:/Users/tanu/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/tanu/.m2/repository/com/github/virtuald/curvesapi/1.05/curvesapi-1.05.jar:/Users/tanu/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.0.1/poi-ooxml-schemas-4.0.1.jar:/Users/tanu/.m2/repository/org/apache/xmlbeans/xmlbeans/3.0.2/xmlbeans-3.0.2.jar:/Users/tanu/.m2/repository/org/apache/poi/poi-scratchpad/4.0.1/poi-scratchpad-4.0.1.jar:/Users/tanu/.m2/repository/org/apache/logging/log4j/log4j-core/2.12.1/log4j-core-2.12.1.jar:/Users/tanu/.m2/repository/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar:/Users/tanu/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/tanu/eclipse-workspace/LinkedIn/target/surefire/surefirebooter1377101264215081203.jar /Users/tanu/eclipse-workspace/LinkedIn/target/surefire 2019-09-22T16-02-52_576-jvmRun1 surefire4216054665220638132tmp surefire_06802100883303017059tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/tanu/eclipse-workspace/LinkedIn/target/test-classes:/Users/tanu/eclipse-workspace/LinkedIn/target/classes:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0-alpha-2/selenium-java-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0-alpha-2/selenium-chrome-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0-alpha-2/selenium-chromium-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-edgehtml-driver/4.0.0-alpha-2/selenium-edgehtml-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0-alpha-2/selenium-edge-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0-alpha-2/selenium-firefox-xpi-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0-alpha-2/selenium-firefox-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0-alpha-2/selenium-ie-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-alpha-2/selenium-remote-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0-alpha-2/selenium-api-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/net/bytebuddy/byte-buddy/1.9.12/byte-buddy-1.9.12.jar:/Users/tanu/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/tanu/.m2/repository/io/opentracing/contrib/opentracing-tracerresolver/0.1.7/opentracing-tracerresolver-0.1.7.jar:/Users/tanu/.m2/repository/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar:/Users/tanu/.m2/repository/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar:/Users/tanu/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/tanu/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/tanu/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/tanu/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/Users/tanu/.m2/repository/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar:/Users/tanu/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/tanu/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar:/Users/tanu/.m2/repository/com/squareup/okhttp3/okhttp/3.14.0/okhttp-3.14.0.jar:/Users/tanu/.m2/repository/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar:/Users/tanu/.m2/repository/io/opentracing/opentracing-util/0.33.0/opentracing-util-0.33.0.jar:/Users/tanu/.m2/repository/io/opentracing/opentracing-noop/0.33.0/opentracing-noop-0.33.0.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0-alpha-2/selenium-opera-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0-alpha-2/selenium-safari-driver-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0-alpha-2/selenium-support-4.0.0-alpha-2.jar:/Users/tanu/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/tanu/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/tanu/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/tanu/.m2/repository/org/apache/poi/poi/4.0.1/poi-4.0.1.jar:/Users/tanu/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tanu/.m2/repository/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar:/Users/tanu/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/tanu/.m2/repository/org/apache/poi/poi-ooxml/4.0.1/poi-ooxml-4.0.1.jar:/Users/tanu/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/tanu/.m2/repository/com/github/virtuald/curvesapi/1.05/curvesapi-1.05.jar:/Users/tanu/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.0.1/poi-ooxml-schemas-4.0.1.jar:/Users/tanu/.m2/repository/org/apache/xmlbeans/xmlbeans/3.0.2/xmlbeans-3.0.2.jar:/Users/tanu/.m2/repository/org/apache/poi/poi-scratchpad/4.0.1/poi-scratchpad-4.0.1.jar:/Users/tanu/.m2/repository/org/apache/logging/log4j/log4j-core/2.12.1/log4j-core-2.12.1.jar:/Users/tanu/.m2/repository/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar:/Users/tanu/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/tanu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/tanu/eclipse-workspace/LinkedIn"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/tanu/eclipse-workspace/LinkedIn/target/surefire/surefirebooter1377101264215081203.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="user.name" value="tanu"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/tanu/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/kq/djv8wj7n0cz87qg2_8z1cwv80000gn/T/"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="user.dir" value="/Users/tanu/eclipse-workspace/LinkedIn"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/tanu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.ext.dirs" value="/Users/tanu/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="LoginPageTitleTest" classname="com.linkedin.qa.testcases.LoginPageTest" time="0.689"/>
+  <testcase name="verifyHomePageTitleTest" classname="com.linkedin.qa.testcases.HomePageTest" time="0.053"/>
+  <testcase name="verifyMessageTest" classname="com.linkedin.qa.testcases.MessagePageTest" time="1.554"/>
+  <testcase name="loginPageLogoTest" classname="com.linkedin.qa.testcases.LoginPageTest" time="0.052"/>
+  <testcase name="verifyCorrectUserImgTest" classname="com.linkedin.qa.testcases.HomePageTest" time="10.073">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@id=&apos;ember28&apos;]&quot;}&#10;  (Session info: chrome=76.0.3809.132)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;&#10;System info: host: &apos;Tonimas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:14d4:fb7e:1c5a:a694%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /var/folders/kq/djv8wj7n0cz...}, goog:chromeOptions: {debuggerAddress: localhost:52514}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: fc8419e4486da443fa1e443d8cf68c74&#10;*** Element info: {Using=xpath, value=//img[@id=&apos;ember28&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[@id='ember28']"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'Tonimas-MacBook-Air.local', ip: 'fe80:0:0:0:14d4:fb7e:1c5a:a694%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /var/folders/kq/djv8wj7n0cz...}, goog:chromeOptions: {debuggerAddress: localhost:52514}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fc8419e4486da443fa1e443d8cf68c74
+*** Element info: {Using=xpath, value=//img[@id='ember28']}
+	at com.linkedin.qa.testcases.HomePageTest.verifyCorrectUserImgTest(HomePageTest.java:40)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 5165
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Sep 22, 2019 4:03:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="clickOnComposeButtonTest" classname="com.linkedin.qa.testcases.MessagePageTest" time="1.112">
+    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=76.0.3809.132)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;&#10;System info: host: &apos;Tonimas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:14d4:fb7e:1c5a:a694%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /var/folders/kq/djv8wj7n0cz...}, goog:chromeOptions: {debuggerAddress: localhost:52583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: a750d7d1e63a37f45af40ba0ddbbdd23" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'Tonimas-MacBook-Air.local', ip: 'fe80:0:0:0:14d4:fb7e:1c5a:a694%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /var/folders/kq/djv8wj7n0cz...}, goog:chromeOptions: {debuggerAddress: localhost:52583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a750d7d1e63a37f45af40ba0ddbbdd23
+	at com.linkedin.qa.testcases.MessagePageTest.clickOnComposeButtonTest(MessagePageTest.java:43)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 38384
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Sep 22, 2019 4:03:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="LoginTest" classname="com.linkedin.qa.testcases.LoginPageTest" time="11.639"/>
+  <testcase name="clickOnMessagingLinkTest" classname="com.linkedin.qa.testcases.HomePageTest" time="5.339"/>
+  <testcase name="selectMessageByNameTest" classname="com.linkedin.qa.testcases.MessagePageTest" time="1.385"/>
+  <testcase name="CheckGroupConversationIconTest" classname="com.linkedin.qa.testcases.MessagePageTest" time="6.054"/>
+  <testcase name="SearchBoxVerificationTest" classname="com.linkedin.qa.testcases.MessagePageTest" time="10.243">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;msg-conversation-card__row pr2&apos;]/h3[text()=&apos;komati priyanka&apos;]&quot;}&#10;  (Session info: chrome=76.0.3809.132)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;&#10;System info: host: &apos;Tonimas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:14d4:fb7e:1c5a:a694%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /var/folders/kq/djv8wj7n0cz...}, goog:chromeOptions: {debuggerAddress: localhost:52901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: b5edd27ab1e831920fb227739b15d1e8&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;msg-conversation-card__row pr2&apos;]/h3[text()=&apos;komati priyanka&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='msg-conversation-card__row pr2']/h3[text()='komati priyanka']"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'Tonimas-MacBook-Air.local', ip: 'fe80:0:0:0:14d4:fb7e:1c5a:a694%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /var/folders/kq/djv8wj7n0cz...}, goog:chromeOptions: {debuggerAddress: localhost:52901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b5edd27ab1e831920fb227739b15d1e8
+*** Element info: {Using=xpath, value=//div[@class='msg-conversation-card__row pr2']/h3[text()='komati priyanka']}
+	at com.linkedin.qa.testcases.MessagePageTest.SearchBoxVerificationTest(MessagePageTest.java:59)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 6396
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Sep 22, 2019 4:05:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

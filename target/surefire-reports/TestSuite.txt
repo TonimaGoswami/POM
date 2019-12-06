@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 161.874 s <<< FAILURE! - in TestSuite
+verifyCorrectUserImgTest(com.linkedin.qa.testcases.HomePageTest)  Time elapsed: 10.073 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[@id='ember28']"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'Tonimas-MacBook-Air.local', ip: 'fe80:0:0:0:14d4:fb7e:1c5a:a694%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /var/folders/kq/djv8wj7n0cz...}, goog:chromeOptions: {debuggerAddress: localhost:52514}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fc8419e4486da443fa1e443d8cf68c74
+*** Element info: {Using=xpath, value=//img[@id='ember28']}
+	at com.linkedin.qa.testcases.HomePageTest.verifyCorrectUserImgTest(HomePageTest.java:40)
+
+clickOnComposeButtonTest(com.linkedin.qa.testcases.MessagePageTest)  Time elapsed: 1.112 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'Tonimas-MacBook-Air.local', ip: 'fe80:0:0:0:14d4:fb7e:1c5a:a694%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /var/folders/kq/djv8wj7n0cz...}, goog:chromeOptions: {debuggerAddress: localhost:52583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a750d7d1e63a37f45af40ba0ddbbdd23
+	at com.linkedin.qa.testcases.MessagePageTest.clickOnComposeButtonTest(MessagePageTest.java:43)
+
+SearchBoxVerificationTest(com.linkedin.qa.testcases.MessagePageTest)  Time elapsed: 10.243 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='msg-conversation-card__row pr2']/h3[text()='komati priyanka']"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'Tonimas-MacBook-Air.local', ip: 'fe80:0:0:0:14d4:fb7e:1c5a:a694%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /var/folders/kq/djv8wj7n0cz...}, goog:chromeOptions: {debuggerAddress: localhost:52901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b5edd27ab1e831920fb227739b15d1e8
+*** Element info: {Using=xpath, value=//div[@class='msg-conversation-card__row pr2']/h3[text()='komati priyanka']}
+	at com.linkedin.qa.testcases.MessagePageTest.SearchBoxVerificationTest(MessagePageTest.java:59)
+

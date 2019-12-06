@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">LinkedIn Test automation suite</th></tr>
+<tr><td><a href="#t0">Different LinkedIn feature test</a></td><td class="num">8</td><td class="num">0</td><td class="num attn">3</td><td class="num">161,193</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">LinkedIn Test automation suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Different LinkedIn feature test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.linkedin.qa.testcases.HomePageTest</td><td><a href="#m0">verifyCorrectUserImgTest</a></td><td rowspan="1">1569182620951</td><td rowspan="1">10064</td></tr><tr class="failedodd"><td rowspan="2">com.linkedin.qa.testcases.MessagePageTest</td><td><a href="#m1">SearchBoxVerificationTest</a></td><td rowspan="1">1569182726832</td><td rowspan="1">10243</td></tr><tr class="failedodd"><td><a href="#m2">clickOnComposeButtonTest</a></td><td rowspan="1">1569182641178</td><td rowspan="1">1110</td></tr><tr><th colspan="4">Different LinkedIn feature test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.linkedin.qa.testcases.HomePageTest</td><td><a href="#m3">clickOnMessagingLinkTest</a></td><td rowspan="1">1569182665491</td><td rowspan="1">5337</td></tr><tr class="passedeven"><td><a href="#m4">verifyHomePageTitleTest</a></td><td rowspan="1">1569182589797</td><td rowspan="1">53</td></tr><tr class="passedodd"><td rowspan="3">com.linkedin.qa.testcases.LoginPageTest</td><td><a href="#m5">LoginPageTitleTest</a></td><td rowspan="1">1569182579361</td><td rowspan="1">690</td></tr><tr class="passedodd"><td><a href="#m6">LoginTest</a></td><td rowspan="1">1569182644921</td><td rowspan="1">11639</td></tr><tr class="passedodd"><td><a href="#m7">loginPageLogoTest</a></td><td rowspan="1">1569182606786</td><td rowspan="1">53</td></tr><tr class="passedeven"><td rowspan="3">com.linkedin.qa.testcases.MessagePageTest</td><td><a href="#m8">CheckGroupConversationIconTest</a></td><td rowspan="1">1569182705835</td><td rowspan="1">6055</td></tr><tr class="passedeven"><td><a href="#m9">selectMessageByNameTest</a></td><td rowspan="1">1569182689367</td><td rowspan="1">1386</td></tr><tr class="passedeven"><td><a href="#m10">verifyMessageTest</a></td><td rowspan="1">1569182600844</td><td rowspan="1">1556</td></tr></tbody>
+</table>
+<h2>Different LinkedIn feature test</h2><h3 id="m0">com.linkedin.qa.testcases.HomePageTest#verifyCorrectUserImgTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@id=&apos;ember28&apos;]&quot;}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;Tonimas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:14d4:fb7e:1c5a:a694%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /var/folders/kq/djv8wj7n0cz...}, goog:chromeOptions: {debuggerAddress: localhost:52514}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fc8419e4486da443fa1e443d8cf68c74
+*** Element info: {Using=xpath, value=//img[@id=&apos;ember28&apos;]}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy7.isDisplayed(Unknown Source)
+	at com.linkedin.qa.pages.HomePage.verifyCorrectUserImg(HomePage.java:36)
+	at com.linkedin.qa.testcases.HomePageTest.verifyCorrectUserImgTest(HomePageTest.java:40)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.linkedin.qa.testcases.MessagePageTest#SearchBoxVerificationTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;msg-conversation-card__row pr2&apos;]/h3[text()=&apos;komati priyanka&apos;]&quot;}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;Tonimas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:14d4:fb7e:1c5a:a694%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /var/folders/kq/djv8wj7n0cz...}, goog:chromeOptions: {debuggerAddress: localhost:52901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b5edd27ab1e831920fb227739b15d1e8
+*** Element info: {Using=xpath, value=//div[@class=&apos;msg-conversation-card__row pr2&apos;]/h3[text()=&apos;komati priyanka&apos;]}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at com.linkedin.qa.pages.MessagePage.verifySearchBox(MessagePage.java:54)
+	at com.linkedin.qa.testcases.MessagePageTest.SearchBoxVerificationTest(MessagePageTest.java:59)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.linkedin.qa.testcases.MessagePageTest#clickOnComposeButtonTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;4.0.0-alpha-2&apos;, revision: &apos;f148142cf8&apos;, time: &apos;2019-07-01T20:55:26&apos;
+System info: host: &apos;Tonimas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:14d4:fb7e:1c5a:a694%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /var/folders/kq/djv8wj7n0cz...}, goog:chromeOptions: {debuggerAddress: localhost:52583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a750d7d1e63a37f45af40ba0ddbbdd23
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at com.linkedin.qa.pages.MessagePage.clickOnComposeButton(MessagePage.java:39)
+	at com.linkedin.qa.testcases.MessagePageTest.clickOnComposeButtonTest(MessagePageTest.java:43)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.linkedin.qa.testcases.HomePageTest#clickOnMessagingLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.linkedin.qa.testcases.HomePageTest#verifyHomePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.linkedin.qa.testcases.LoginPageTest#LoginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.linkedin.qa.testcases.LoginPageTest#LoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.linkedin.qa.testcases.LoginPageTest#loginPageLogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.linkedin.qa.testcases.MessagePageTest#CheckGroupConversationIconTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.linkedin.qa.testcases.MessagePageTest#selectMessageByNameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.linkedin.qa.testcases.MessagePageTest#verifyMessageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
